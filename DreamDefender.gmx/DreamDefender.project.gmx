@@ -5,9 +5,25 @@
   </Configs>
   <NewExtensions/>
   <sounds name="sound"/>
-  <sprites name="sprites"/>
-  <backgrounds name="background"/>
+  <sprites name="sprites">
+    <sprite>sprites\dd_StartButtonSpr</sprite>
+    <sprite>sprites\dd_DefenderSpr</sprite>
+    <sprite>sprites\dd_FireSpr</sprite>
+  </sprites>
+  <backgrounds name="background">
+    <background>background\dd_StartBG</background>
+    <background>background\dd_GameBG</background>
+  </backgrounds>
   <paths name="paths"/>
+  <objects name="objects">
+    <object>objects\dd_StartButtonObj</object>
+    <object>objects\dd_DefenderObj</object>
+    <object>objects\dd_FireObj</object>
+  </objects>
+  <rooms name="rooms">
+    <room>rooms\StartScreen</room>
+    <room>rooms\GameScreen</room>
+  </rooms>
   <help>
     <rtf>help.rtf</rtf>
   </help>
