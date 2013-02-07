@@ -12,11 +12,13 @@
     <sprite>sprites\dd_RetrySpr</sprite>
     <sprite>sprites\dd_DreamCloudSpr</sprite>
     <sprite>sprites\dd_NightmareSpr</sprite>
+    <sprite>sprites\dd_MoonSpr</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\dd_StartBG</background>
     <background>background\dd_GameBG</background>
     <background>background\dd_EndBG</background>
+    <background>background\dd_winBG</background>
   </backgrounds>
   <paths name="paths"/>
   <objects name="objects">
@@ -29,11 +31,13 @@
     <object>objects\dd_LeftNightmareObj</object>
     <object>objects\dd_NightmareTopSpawn</object>
     <object>objects\dd_NightmareLeftSpawn</object>
+    <object>objects\dd_TimerObj</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\StartScreen</room>
     <room>rooms\GameScreen</room>
     <room>rooms\EndScreen</room>
+    <room>rooms\WinScreen</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
