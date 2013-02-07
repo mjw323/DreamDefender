@@ -28,9 +28,13 @@
     <object>objects\dd_RetryObj</object>
     <object>objects\dd_DreamCloudObj</object>
     <object>objects\dd_TopNightmareObj</object>
+    <object>objects\dd_BotNightmareObj</object>
     <object>objects\dd_LeftNightmareObj</object>
+    <object>objects\dd_RightNightmareObj</object>
     <object>objects\dd_NightmareTopSpawn</object>
+    <object>objects\dd_NightmareBotSpawn</object>
     <object>objects\dd_NightmareLeftSpawn</object>
+    <object>objects\dd_NightmareRightSpawn</object>
     <object>objects\dd_TimerObj</object>
   </objects>
   <rooms name="rooms">
