@@ -9,20 +9,31 @@
     <sprite>sprites\dd_StartButtonSpr</sprite>
     <sprite>sprites\dd_DefenderSpr</sprite>
     <sprite>sprites\dd_FireSpr</sprite>
+    <sprite>sprites\dd_RetrySpr</sprite>
+    <sprite>sprites\dd_DreamCloudSpr</sprite>
+    <sprite>sprites\dd_NightmareSpr</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\dd_StartBG</background>
     <background>background\dd_GameBG</background>
+    <background>background\dd_EndBG</background>
   </backgrounds>
   <paths name="paths"/>
   <objects name="objects">
     <object>objects\dd_StartButtonObj</object>
     <object>objects\dd_DefenderObj</object>
     <object>objects\dd_FireObj</object>
+    <object>objects\dd_RetryObj</object>
+    <object>objects\dd_DreamCloudObj</object>
+    <object>objects\dd_TopNightmareObj</object>
+    <object>objects\dd_LeftNightmareObj</object>
+    <object>objects\dd_NightmareTopSpawn</object>
+    <object>objects\dd_NightmareLeftSpawn</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\StartScreen</room>
     <room>rooms\GameScreen</room>
+    <room>rooms\EndScreen</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
