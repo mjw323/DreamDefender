@@ -13,6 +13,7 @@
     <sprite>sprites\dd_DreamCloudSpr</sprite>
     <sprite>sprites\dd_NightmareSpr</sprite>
     <sprite>sprites\dd_MoonSpr</sprite>
+    <sprite>sprites\dd_NextLevelSpr</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\dd_StartBG</background>
@@ -23,6 +24,8 @@
   <paths name="paths"/>
   <objects name="objects">
     <object>objects\dd_StartButtonObj</object>
+    <object>objects\dd_GoToLevel2Obj</object>
+    <object>objects\dd_GoToLevel3Obj</object>
     <object>objects\dd_DefenderObj</object>
     <object>objects\dd_FireObj</object>
     <object>objects\dd_RetryObj</object>
@@ -35,13 +38,17 @@
     <object>objects\dd_NightmareBotSpawn</object>
     <object>objects\dd_NightmareLeftSpawn</object>
     <object>objects\dd_NightmareRightSpawn</object>
-    <object>objects\dd_TimerObj</object>
+    <object>objects\dd_TimerObj1</object>
+    <object>objects\dd_TimerObj2</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\StartScreen</room>
-    <room>rooms\GameScreen</room>
+    <room>rooms\Level1</room>
+    <room>rooms\Level2</room>
+    <room>rooms\Level3</room>
     <room>rooms\EndScreen</room>
-    <room>rooms\WinScreen</room>
+    <room>rooms\WinScreen1</room>
+    <room>rooms\WinScreen2</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
