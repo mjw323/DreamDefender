@@ -8,12 +8,18 @@
   <sprites name="sprites">
     <sprite>sprites\dd_StartButtonSpr</sprite>
     <sprite>sprites\dd_DefenderSpr</sprite>
+    <sprite>sprites\dd_DefenderFireSpr</sprite>
     <sprite>sprites\dd_FireSpr</sprite>
     <sprite>sprites\dd_RetrySpr</sprite>
     <sprite>sprites\dd_DreamCloudSpr</sprite>
     <sprite>sprites\dd_NightmareSpr</sprite>
+    <sprite>sprites\dd_NightmareSprBot</sprite>
+    <sprite>sprites\dd_NightmareSprRight</sprite>
+    <sprite>sprites\dd_NightmareSprLeft</sprite>
     <sprite>sprites\dd_MoonSpr</sprite>
     <sprite>sprites\dd_NextLevelSpr</sprite>
+    <sprite>sprites\dd_ScatterSpr</sprite>
+    <sprite>sprites\dd_GameOverText</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\dd_StartBG</background>
@@ -40,13 +46,16 @@
     <object>objects\dd_NightmareRightSpawn</object>
     <object>objects\dd_TimerObj1</object>
     <object>objects\dd_TimerObj2</object>
+    <object>objects\Score</object>
+    <object>objects\dd_ScatterObj</object>
+    <object>objects\dd_GameOver</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\StartScreen</room>
     <room>rooms\Level1</room>
     <room>rooms\Level2</room>
     <room>rooms\Level3</room>
-    <room>rooms\EndScreen</room>
+    <room>rooms\EndScreen1</room>
     <room>rooms\WinScreen1</room>
     <room>rooms\WinScreen2</room>
   </rooms>

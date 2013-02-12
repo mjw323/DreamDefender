@@ -54,6 +54,7 @@
     <instance objName="dd_TimerObj1" x="32" y="64" name="inst_B5344B89" locked="0" code="" scaleX="0.326086968183517" scaleY="0.295819938182831" colour="4294967295" rotation="0"/>
     <instance objName="dd_DefenderObj" x="640" y="384" name="inst_6E931293" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="dd_NightmareTopSpawn" x="0" y="0" name="inst_72C94A2C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Score" x="544" y="768" name="inst_163C171E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

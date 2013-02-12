@@ -565,7 +565,7 @@
         <arguments>
           <argument>
             <kind>11</kind>
-            <room>EndScreen</room>
+            <room>EndScreen1</room>
           </argument>
         </arguments>
       </action>
@@ -1115,7 +1115,7 @@
         <arguments>
           <argument>
             <kind>11</kind>
-            <room>EndScreen</room>
+            <room>EndScreen1</room>
           </argument>
         </arguments>
       </action>
@@ -1665,7 +1665,7 @@
         <arguments>
           <argument>
             <kind>11</kind>
-            <room>EndScreen</room>
+            <room>EndScreen1</room>
           </argument>
         </arguments>
       </action>
@@ -1706,6 +1706,30 @@
           <argument>
             <kind>0</kind>
             <string>-1</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>611</id>
+        <kind>6</kind>
+        <userelative>-1</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>dd_DefenderObj</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>Scatter</string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string>0</string>
           </argument>
         </arguments>
       </action>
@@ -2215,7 +2239,7 @@
         <arguments>
           <argument>
             <kind>11</kind>
-            <room>EndScreen</room>
+            <room>EndScreen1</room>
           </argument>
         </arguments>
       </action>

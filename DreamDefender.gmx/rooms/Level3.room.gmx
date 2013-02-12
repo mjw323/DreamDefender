@@ -57,6 +57,7 @@
     <instance objName="dd_NightmareLeftSpawn" x="0" y="768" name="inst_1BE4E626" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="dd_NightmareBotSpawn" x="1248" y="768" name="inst_F86F3786" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="dd_NightmareRightSpawn" x="1248" y="0" name="inst_CD4D4324" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Score" x="544" y="768" name="inst_E93C26A3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
