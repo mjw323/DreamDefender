@@ -4,7 +4,9 @@
     <Config>Configs\Default</Config>
   </Configs>
   <NewExtensions/>
-  <sounds name="sound"/>
+  <sounds name="sound">
+    <sound>sound\dd_hit</sound>
+  </sounds>
   <sprites name="sprites">
     <sprite>sprites\dd_StartButtonSpr</sprite>
     <sprite>sprites\dd_DefenderSpr</sprite>
